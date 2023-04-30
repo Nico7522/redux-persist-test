@@ -5,6 +5,7 @@ import Login from './components/login/login'
 import Items from './containers/items/items'
 import { PersonPresence } from './containers/person-presence/person-presence'
 import Disconnect from './components/disconnect/disconnect'
+import Books from './containers/books/books'
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
     <Items />
     <h2>Login test</h2>
     <Login />
+    <Books />
     </>
   )
 }
